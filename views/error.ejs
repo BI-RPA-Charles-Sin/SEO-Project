@@ -57,7 +57,7 @@
     </style>
   </head>
   <body>
-    <a target="_blank" href="https://2022-thef2e.vercel.app/">
+    <a href="https://2022-thef2e.vercel.app/">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 mt-5 mb-5">
@@ -810,6 +810,10 @@
         scale: [{ value: 1 }, { value: 1.4 }, { value: 1, delay: 250 }],
         rotateY: { value: "+=180", delay: 200 },
       });
+
+      setTimeout(() => {
+        window.location.assign("https://2022-thef2e.vercel.app/");
+      }, 300);
     </script>
   </body>
 </html>
