@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-sitemap: https://2022-the-f2e.netlify.app/sitemap.xml
+sitemap: https://2022-thef2e.vercel.app//sitemap.xml
