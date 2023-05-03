@@ -1,16 +1,20 @@
 const express = require("express");
 const router = express.Router();
 
+router.get("/", function (req, res, next) {
+  res.render("weekone");
+});
+
 router.get("/weekone", function (req, res, next) {
-  res.render("2022WeekOne/index", { title: "Express" });
+  res.render("weekone");
 });
 
 router.get("/weektwo", function (req, res, next) {
-  res.render("2022WeekTwo/index", { title: "Express" });
+  res.render("weektwo");
 });
 
 router.get("/weekthree", function (req, res, next) {
-  res.render("2022WeekThree/index", { title: "Express" });
+  res.render("weekthree");
 });
 
 module.exports = router;
